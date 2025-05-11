@@ -91,7 +91,7 @@ choice = st.sidebar.selectbox("📂 Navigation", menu)
 # 🏠 Home Page
 # ------------------------------
 if choice == "Home":
-    st.subheader("🏠 Welcome to the Secure Data System")
+    st.subheader("🏠 Welcome to the Secure Data")
     st.markdown("""
     <div class="instructions">
     👋 **Instructions for Use:**
