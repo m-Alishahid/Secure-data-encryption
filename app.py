@@ -183,7 +183,7 @@ elif choice == "Login":
     login_pass = st.text_input("Enter master password:", type="password")
 
     if st.button("Login"):
-        if login_pass == "admin123":  # Simple hardcoded login
+        if login_pass == "dev2025":  # Simple hardcoded login
             st.session_state.failed_attempts = 0
             st.success("✅ Reauthorized successfully! You can now try retrieving data again.")
         else:
